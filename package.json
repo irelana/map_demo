@@ -1,0 +1,27 @@
+{
+  "name": "foodbuddy",
+  "version": "1.0.0",
+  "description": "demo Food Buddy app for teaching purposes",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregwadley/FoodBuddy.git"
+  },
+  "author": "Greg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregwadley/FoodBuddy/issues"
+  },
+  "homepage": "https://github.com/gregwadley/FoodBuddy#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "express-validator": "^6.10.0",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.1"
+  }
+}
